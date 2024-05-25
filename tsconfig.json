@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2021", // Target the latest ECMAScript features for ESM
+    "module": "NodeNext", // Use the esnext module format (for ESM)
+    "moduleResolution": "NodeNext", // Use Node.js module resolution strategy
+    "outDir": "dist", // Output directory for compiled JavaScript (optional)
+    "sourceMap": true, // Enables compatibility with commonjs modules (optional)
+    "strict": true
+  },
+  "include": ["src/**/*"] // Include all TypeScript files in the "src" directory
+}
